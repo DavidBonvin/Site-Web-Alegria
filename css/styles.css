@@ -1,0 +1,215 @@
+/*GENERAL PARA TODAS LAS PAGINAS*/
+
+* {
+    box-sizing: border-box;    /* me sirve para sumar el borde, la margen y el tamaño del elemento */  
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body 
+{
+    color:rgb(136, 18, 18); 
+    text-align: center;     
+    font-family: "Arial";
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecera
+{
+    background: #0F6196 
+    ;
+    box-shadow: 0px 2px 20PX 0px rgba(0, 0, 0, 0.5);    /* Esta es la sombra del elemento*/ 
+    color:   white;
+    font-weight: bold;                                    /* Es la fueste de letra*/
+    margin: 0;
+    padding: 0.5em;
+    min-height: 6rem;
+    border-radius: 1.6rem;                                   /* Es para bordear las esquinas o tambien sirve para hacer un circulo*/
+    font-size: 170%;                                        /* Tamaño de letra*/
+
+
+}
+.cabecera .taglene
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+
+    
+
+.header-nav {
+    margin-top: 1rem;  
+    list-style: none;
+    padding-left: 0;
+    background-color: #2471A4;
+    border-radius: 1rem;
+    min-height: 3rem;
+    box-shadow: 0px 2px 20PX 0px rgba(0, 0, 0, 0.5);
+
+}
+.header-nav__item {
+    display: inline-block;                  /* Es para que los items salgan horizontalmente*/
+    
+
+}
+.header-nav__item a {
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+.header-nav__item a:hover {            /* Cambia de color cuando se pasa el raton por encima */
+    color: #1A93E3;
+    
+}
+.header-nav__item a:active {          /* Cambia de color cuando esta activado o cliqueado */
+    color: #3E7294;
+}
+.header-nav__item a::after {           /* Agrega un elemento despues del elemento a todos los elementos */
+    content: "🍁" ;
+}
+
+/*ESTILOS page Home index */
+.p-header__index {
+    font-weight:900 ; 
+    color: #0F6196;
+    font-size: 140%;
+}
+.main2-index {
+    background-color:#A1B5C3  ;
+    width: 97%;
+    height: auto;
+    border-radius: 3%;
+
+}
+.video3 {
+    width: 70%;
+    height: 70%;
+    min-width: 30rem;
+    max-width: 100rem;
+
+}
+.main3-index {
+    background-color:#194463  ;
+    width: 97%;
+    height: auto;
+    border-radius: 3%;
+
+}
+
+/* ESTILOS Page videos*/
+
+
+.p-header-page__videos {
+    font-weight:900 ; 
+    color: #0F6196;
+    font-size: 140%;
+
+}
+
+.main-videos {
+
+}
+
+.nav-tex-header {
+    width: 100%;
+    min-height: 2rem;
+    border: 0.3rem;
+    padding: 0.2rem 0.3rem ;
+    font-size: 120%;
+    font-family: cursive;
+    margin: 0.1rem; 
+}
+.section__videos {
+    background-color: #E7F0F6;
+    width: 97%;
+    height: auto;
+    border-radius: 3%;
+    
+}
+.video1 {
+    
+    width: 30%;
+    height: 30%;
+    min-width: 30rem;
+    max-width: 60rem;
+
+}
+.video2 {
+   
+    width: 30%;
+    height: 30%;
+    min-width: 30rem;
+    max-width: 60rem;
+}
+
+/* ESTILOS page Fotos*/ 
+.p-header__fotos {
+    font-weight:900 ; 
+    color: #0F6196;
+    font-size: 140%;
+
+}
+
+.maifotos {
+    width: 100%;
+    height: 80rem;
+    border: 0.5rem solid rgb(40, 40, 219);
+    padding: 2rem 2.5rem;
+    
+}
+.main-fotos__section {
+    background-color: #E7F0F6;
+    width: 100%;
+    height: auto;
+    border-radius: 3%;
+
+
+}
+.main-fotos__section p {
+    color: #2371A5 ;
+    text-align: justify;
+    
+    
+
+
+}
+
+/*ESTILOS page Biographie */ 
+
+.p-header__biographie {
+    font-weight:900 ; 
+    color: #0F6196;
+    font-size: 140%;
+}
+
+
+/*ESTILOS page Nous contacter*/ 
+.p-header__contac {
+    font-weight:900 ; 
+    color: #0F6196;
+    font-size: 140%;
+    
+
+}
+
+/*ESTILOS page concerts */
+.p-header__concerts {
+    font-weight:900 ; 
+    color: #0F6196;
+    font-size: 140%;
+
+}
+
+/*ESTILOS page les musiciens*/
+.p-header__musiciens {
+    font-weight:900 ; 
+    color: #0F6196;
+    font-size: 140%;
+}

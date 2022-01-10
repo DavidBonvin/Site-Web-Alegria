@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="index,follow" />
+        <meta name="description" content="Sur cette page, vous trouverez les projets réalisés par David Cordoba dans ses cours de programmation.">
+
+        <title>formularie</title>
+        <link rel="stylesheet" href="css/styles.css">
+        
+    
+    </head>
+<body>
+    <div class="container">
+        <div class="cabecera">
+            Pagina Oficial 
+            <span class="tagline"> Alegria  
+            
+            </span>
+            
+
+        </div> 
+    </div>
+    <header>
+        <nav>
+            <ul class="header-nav">
+                <li class="header-nav__item"><a href="/index.html">Home</a></li>
+                <li class="header-nav__item"><a href="/Photos.html">Biographie</a></li>
+                <li class="header-nav__item"><a href="/videos.html">Videos</a></li>               
+                <li class="header-nav__item"><a href="/concerts.html">Concerts</a></li>
+                <li class="header-nav__item"><a href="/les musiciens.html">Les musiciens</a></li>
+                <li class="header-nav__item"><a href="/Nous-contacter.html">Contact</a></li>
+            </ul>
+            <p class="p-header__contac">Nous Contacter</p>
+        </nav>
+    </header>
+
+    <h2>Quelques petites questions pour réserver un concert avec <span id="tagline"> Alegria  </span> </h2>
+        <h3> Avant de commencer, merci beaucoup d'avoir choisi alegria, nous serons heureux d'apporter de la joie à votre établissement.</h3>
+    <form> 
+        <br> 
+        <label for="nom">
+            <span>Nom</span>
+            <input type="text" id="nom" name="nom" autocomplete="nom" required/>
+
+        </label>
+        <br>
+        <br>
+        
+        <label for="prenom">
+            <span>Prenom</span>
+            <input type="text" id="prenom" name="prenom" autocomplete="prenom" required />
+
+        </label>
+        <br><br>
+        <label for="email">
+            <span>Votre email</span>
+            <input type="email" id="email" name="email" autocomplete="email" required />
+        
+            <br><br>
+
+        </label>
+        <label for="telephon">
+            <span>Telephone</span>
+            <input type="tel" id="telephon" name="telephon" autocomplete="tel" required />
+        
+        <br><br>
+
+        <h2>sur la presentation</h2> <br>
+
+        </label>
+        <label for="pays">
+            <span>De quel pays nous écrivez-vous ?</span>
+            <input type="text" id="pays" name="pays" autocomplete="pays" required />
+
+        </label>
+        <br><br>
+        
+        <label for="adresses">
+            <span>Où serait la présentation?   </span>
+            <input type="text" id="adresses" name="adresses" autocomplete="address-level1" required />
+        </label>
+
+        <br><br>
+        <label for="cp">
+            <span>Code postal</span>
+            <input type="cp" id="cp" name="cp" autocomplete="tel-area-code" required>
+
+        </label>
+        <br><br>
+
+        <label for="date-née">
+            <span>Pour quelle date souhaitez-vous notre présentation ?</span>
+            <input type="date" id="date-née" name="date-née" />
+
+
+        </label>
+        <br> <br>
+        <label for="time-shopping">
+            <span>à quelle heure voulez-vous le concert? </span>
+            <input type="time" id="time-shopping" name="time-shopping"/>
+
+    
+
+        </label >
+        <br> <br>
+        <label for="dia&hora">
+            <span>Une autre date facultative?</span>
+            <input type="datetime-local" id="dia&hora" name="dia&hora" />
+        
+        <!--
+        </label>
+        <br> <br>
+        <label for="mois">
+            <span>Quel est votre mois préféré?</span>
+            <input type="month" id="mois" name="mois" />
+    
+        </label>
+        <br> <br>
+        <label for="semaine">
+             <span>Votre prochaine semaine de vacances c'est ?</span>
+             <input type="week" id="semaine" name="semaine" >
+        </label>
+        <label for="plats-colombiennes">
+        
+            <span>Quel plat de la cuisine colombienne aimez-vous le plus ?</span>
+            <input list="Plats-colombiennes">
+            <datalist id="Plats-colombiennes ">
+                <option value="Bandeja-paisa"></option>
+                <option value="buñuelos"></option>
+                <option value="Arepas-de-juca"></option>
+                <option value="Aborrajados"></option>
+                <option value="Empanadas Vallunas"></option>
+                <option value="Pandebonos"></option>
+            </datalist>
+        </label>-->
+        <br> <br> <br> 
+
+         <input type="submit" value="Atras"/>
+
+         <button type="submit">ENVIAR</button>
+         
+
+        
+    </form>
+    
+</body>
+</html>
