@@ -76,6 +76,12 @@ body
 }
 
 /*ESTILOS page Home index */
+.main-index img {
+    padding: 5%;
+}
+.main-index video {
+    padding: 5%;
+}
 .p-header__index {
     font-weight:900 ; 
     color: #0F6196;
@@ -175,10 +181,14 @@ body
 .main-fotos__section p {
     color: #2371A5 ;
     text-align: justify;
+    padding: 10%;
     
     
 
 
+}
+.main-fotos__section h3{
+    padding-top: 20px;
 }
 
 /*ESTILOS page Biographie */ 
@@ -206,6 +216,7 @@ body
     font-size: 140%;
 
 }
+
 
 /*ESTILOS page les musiciens*/
 .p-header__musiciens {
